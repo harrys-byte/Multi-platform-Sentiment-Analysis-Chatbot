@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore', message="To exit: use 'exit', 'quit', or Ctrl-
 warnings.filterwarnings('ignore', message="An exception has occurred, use %tb to see the full traceback.")
 
 # Step 1: Set up YouTube API
-api_key = "AIzaSyDnxGr_DNZVKR_5Eko58oba2VNITbdMSOk"  # 🔑 Replace with your real API key
+api_key = " "  # 🔑 Real API key revoked to avoid leaks
 youtube = build("youtube", "v3", developerKey=api_key)
 
 # Step 2: Search YouTube Videos by Keyword
